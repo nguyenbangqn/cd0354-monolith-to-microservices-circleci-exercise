@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build:            # job name
     docker:         # executor type
-      - image: cimg/base:current # Docker image that installs Docker and has Git,
+      - image: cimg/base:current # Docker image that installs Docker and has Git, 
     working_directory: ~/app
     steps:
       - checkout
